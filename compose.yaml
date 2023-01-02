@@ -1,0 +1,32 @@
+services:
+  backend:
+    container_name: backend
+    build:
+      context: backend
+    runtime: nvidia
+    networks:
+      subnetwork:
+        ipv4_address: 192.168.123.3
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+  bot:
+    container_name: bot
+    build:
+      context: bot
+    environment:
+      - APP_ID=${APP_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - UPLOAD_VIDEO_URL=http://192.168.123.3:8000/api/video/upload
+      - UPLOAD_IMAGE_URL=http://192.168.123.3:8000/api/image/upload
+    networks:
+      subnetwork:
+        ipv4_address: 192.168.123.2
+
+networks:
+  subnetwork:
+    ipam:
+      config:
+      - subnet: 192.168.123.0/24

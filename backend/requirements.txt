@@ -1,0 +1,12 @@
+aiofiles==22.1.0
+einops==0.6.0
+fastapi==0.88.0
+moviepy==1.0.3
+onnx==1.13.0
+onnxruntime==1.13.1
+opencv-python==4.6.0.66
+ortools
+piq==0.7.0
+python-multipart==0.0.5
+timm==0.5.4
+uvicorn==0.20.0
