@@ -1,7 +1,8 @@
 <p align=center>
 <img src="public/logo/logo-no-background.png" width=80% height=80%>
 </p>
-The repository of the graduation project ***"AI assistant for video creators"*** in [MADE](https://data.vk.company/) [2022] [Presentation](https://docs.google.com/presentation/d/1VbRrEFBQCc05oWiRMZyq6dliLDUc99o-sGDUk5kJhlw/edit?usp=sharing). 
+
+The repository of the graduation project ***"AI assistant for video creators"*** in [MADE](https://data.vk.company/) [2022] [[Presentation]](https://docs.google.com/presentation/d/1VbRrEFBQCc05oWiRMZyq6dliLDUc99o-sGDUk5kJhlw/edit?usp=sharing) 
 
 ## 1. Introduction
 Over the past decade, there has been a phenomenal surge in activity in the video content market. On YouTube alone, users upload [>500 hours of videos per minute](https://www.tubefilter.com/2019/05/07/number-hours-video-uploaded-to-youtube-per-minute/). In this regard, the issue of increasing the ClickThrough Rate (CTR) of each video becomes a significant problem both for the creators of the video and for the platforms that host it.  
@@ -21,16 +22,18 @@ The project includes three parts:
 2. Selection of frames for the cover;
 3. Adding text to the cover.
 
-## 3. Project Description
+## 3. Project description
 ### 3.1 Creating a video preview
 
 ### 3.2 Selection of frames for the cover
 
 ### 3.3 Adding text to the cover
 
-## 4. CLI
-
-## 5. API and bot
+## 4. Project realization
+Download [model.zip](https://drive.google.com/file/d/1gyi4m_Gh8C7_2jTJ8fBbZ1DUmIigmmR2/view?usp=sharing) and extract to ```backend/app/models/```
+### 1. CLI
+### 2. API
+### 3. Bot
 
 
 ```bash
